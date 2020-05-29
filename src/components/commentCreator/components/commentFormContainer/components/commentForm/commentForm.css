@@ -1,0 +1,57 @@
+#comment-form {
+  /* box-shadow: inset 0px 6px 7px 1px rgba(0, 0, 0, 0.25); */
+  width: 100%;
+  background: #e5e5e5;
+  padding-bottom: 5%;
+}
+
+#comment-send-button_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#comment-send-button_container button {
+  background: #ffdf1c;
+  border-radius: 50px;
+  width: 50%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#comment-form-fieldset {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+#comment-form-name,
+#comment-form-message {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.comment-form-label {
+  width: 30%;
+  text-align: right;
+}
+
+.comment-form-userinput {
+  width: 70%;
+  padding-left: 5%;
+}
+
+.comment-form-userinput input {
+  width: 80%;
+  height: 20px;
+}
+
+.comment-form-userinput textarea {
+  resize: none;
+  width: 80%;
+  border: none;
+  height: 80px;
+}

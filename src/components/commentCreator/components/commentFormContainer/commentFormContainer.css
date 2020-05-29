@@ -1,0 +1,11 @@
+#comment-form-container {
+  background-color: #f5f8fa;
+  height: 400px;
+  border-radius: 25px;
+  width: 70%;
+}
+
+#comment-form_header {
+  display: flex;
+  justify-content: center;
+}
